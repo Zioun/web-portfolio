@@ -4,7 +4,9 @@
     box-sizing: border-box;
 } */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
 }
 h1{
     font-size: 50px;
@@ -15,9 +17,16 @@ h1{
 img{
     width: 100%;
 }
+section{
+    height: 500px;
+}
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding: 2%;
+}
+.top-banner{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
 }
