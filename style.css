@@ -11,6 +11,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
@@ -19,6 +22,7 @@ img{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .half-width{
     width: 40%;
@@ -27,6 +31,20 @@ section{
     padding: 2%;
 }
 .top-banner{
-    background-image: url("./images/top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+}
+.link-btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
